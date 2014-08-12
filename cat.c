@@ -1,6 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+
+
+
+
 void type_one_file(FILE *fp){
   int ch;
   while((ch == getc(fp) != EOF)){
