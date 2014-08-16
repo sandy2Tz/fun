@@ -1,0 +1,9 @@
+#include <stdio.h>
+
+int main()
+{
+  int i,j=0;
+  int num = 123456;
+  char temp[7];
+  
+}

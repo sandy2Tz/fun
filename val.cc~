@@ -1,0 +1,10 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+  const int iv;
+  int iv2 = 1024;
+  int &rv = iv;
+  cout << rv << " " <<iv2 << endl;
+}

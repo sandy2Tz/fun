@@ -1,0 +1,9 @@
+try:
+    with open("james.txt") as jms:
+        data = jms.readline().split(",")
+    with open("julie.txt") as jul:
+        data = jul.readline().split(",")
+    with open("sarah.txt") as sar:
+        data = sar.readline().split(";")
+    with open("mikey.txt") as mik:
+        data = mik.readline().strip()

@@ -1,0 +1,6 @@
+#include <stdio.h>
+
+typedef struct linknode{
+  int data;
+  struct linknode *next;
+}

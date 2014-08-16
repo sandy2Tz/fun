@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main()
+{
+  int i,j;
+  int sum;
+  int arr[10] = {1,2,3,8,2,4,123,-199,14,13};
+  for(i = 0; i<10; i++)
+    for(j = i; j<10;j++)
+      {
+	
+      }
+}

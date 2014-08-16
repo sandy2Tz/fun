@@ -1,0 +1,11 @@
+#include <stdio.h>
+struct S{
+  int i;
+  int *p;
+};
+
+int main(){
+  struct S s;
+  int *p = &s.i;
+  printf("%p,%p\n",&s,p);
+}

@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+void shellsort(int *data, int left, int right)
+{
+  int len = right - left + 1;
+  int d = len;
+  while(d > 1)
+    {
+      
+    }
+  
+}

@@ -1,0 +1,8 @@
+#include <stdio.h>
+
+int main()
+{
+  int iv;
+  int iv2 = 1024;
+  int &x = iv;
+}

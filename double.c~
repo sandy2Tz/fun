@@ -1,0 +1,6 @@
+#include <stdio.h>
+
+typedef struct Dlink{
+  int data;
+  struct Dlink *pre,*rear;
+}Dnode,*Dlist;

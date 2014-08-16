@@ -1,0 +1,6 @@
+#include <stdio.h>
+
+typedef struct BiNode{
+  struct BiNode *lchild, *rchild;
+  
+}BiNode,*Bitree

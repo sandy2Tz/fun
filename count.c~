@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+
+void histogram(char *src)
+{
+  int i;
+  char ascii[256];
+  while(*src!='\0')
+    ascii[*src++]++;
+}
+int main()

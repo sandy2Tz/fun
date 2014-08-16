@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+typedef struct QNode{
+  int data;
+  struct Qnode *next;
+}QNode, *QueuePtr;
+
+typedef struct{
+  QueuePtr front,rear;
+}LinkQueue;

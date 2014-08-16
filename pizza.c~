@@ -1,0 +1,7 @@
+#include <stdio.h>
+
+int main(){
+  char *delivery = "";
+  delivery = 5;
+  puts(delivery);
+}

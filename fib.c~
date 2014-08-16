@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int fib(int n){
+  if(i<2)
+    return n == 0? 0:1;
+  return  fib(n) = fib(n-1)+fib(n-2);
+}
+
+int main(){
+  
+}

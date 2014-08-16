@@ -1,0 +1,9 @@
+#include <stdio.h>
+
+#define MAXSIZE 100;
+
+typedef int SElement;
+
+typedef struct{
+  SElement data[]
+}
