@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main()
+{
+  int i,m,n,o,p;
+  for(i=0;i<1000;i++)
+    {
+      m = i%10;
+      n = (i%100)/10;
+      o = (i/10)%10;
+    }
+}

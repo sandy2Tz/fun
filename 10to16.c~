@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+
+
+int 10to16(int n)
+{
+  int i;
+  for()
+}
+int main()
+{
+
+}

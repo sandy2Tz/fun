@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main()
+{
+  int x,y,a,b,c,d;
+  scanf("%i %i",&x,&y);
+  a = x%10;
+  b = x/10;
+  c = y%10;
+  d = y/10;
+  
+  int m = a*10+b;
+  int n = c*10+d;
+  printf("%i  %i\n",m ,n);
+  if((x+y)==(m+n))
+    printf("It's OK: %i + %i = %i + %i\n",x ,y ,m ,n);
+  else
+    printf("It's not ok\n");
+
+  return 0;    
+}

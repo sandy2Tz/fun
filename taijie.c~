@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main()
+{
+  int i;
+  for(i=100; i<1000; i++)
+    if((x%2==1) && (x%3==2) && (x%5==4) && (x%6==5) && (x%7==0))
+      printf("%i\n",x);
+  return 0;
+}

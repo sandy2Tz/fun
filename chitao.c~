@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main()
+{
+  int day = 9;
+  int x = 1;
+  int t1;
+  while(day>0)
+    {      
+      
+    }
+}

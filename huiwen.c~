@@ -1,0 +1,36 @@
+#include <stdio.h>
+#include <math.h>
+#include <stdbool.h>
+
+bool isPrime(int num)
+{
+  int i;
+  for(i=2;i<sqrt(num);i++)
+    {
+      if(num%i==0)
+	return false;
+     }
+  return true;
+       
+}
+
+int main()
+{
+  int i,m,n,o,p,s;  
+  for(i=1000;i<=9999;i++)
+    {
+      if(isPrime(i))
+	{
+	  m = i%10;
+	  i /= 10;
+	  n = i%10;
+	  i /= 10;
+	  o = i%10;
+	  i /= 10;
+	  p = i%10;
+	  s = m*1000+n*100+o*10+p;
+	  if(isPrime(s))
+	    printf("%d is huiwen prime number\n",s);
+	}
+    }
+}

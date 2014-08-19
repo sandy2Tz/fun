@@ -1,6 +1,0 @@
-#include <stdio.h>
-
-typedef struct SNode{
-  int data[20];
-  int length;
-}

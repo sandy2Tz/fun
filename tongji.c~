@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+
+#define MAXSIZE 100
+
+int main()
+{
+  char str[MAXSIZE];
+  fgets(str, MAXSIZE-1, stdin);
+  
+}
